@@ -1,21 +1,32 @@
 //
-//  Settings.swift
+//  SettingsViewSave.swift
 //  HW5
 //
-//  Created by Arman on 12/8/21.
+//  Created by Arman on 12/10/21.
 //
 
 import SwiftUI
 
-struct SettingsView: View {
+struct SettingsViewSave: View {
     var body: some View {
-        SettingList()
+        SettingListSave()
             .background(Color(red: 28/255, green: 28/255, blue: 30/255))
     }
 }
 
-struct SettingList: View {
+struct SettingListSave: View {
     var body: some View {
+        ZStack{
+            VStack{
+                HStack{
+                    Image(systemName: "chevron.left")
+                    Spacer()
+                    Text("Save")
+                }
+                .font(.system(size: 17, weight: .bold))
+                .padding(.horizontal,9)
+                Spacer()
+            }
             VStack{
                 Text("Settings")
                     .fontWeight(.bold)
@@ -46,16 +57,15 @@ struct SettingList: View {
                 Divider()
                 Spacer()
             }
-            .foregroundColor(.white)
+        }
+        .foregroundColor(.white)
         .padding(.horizontal)
         .font(.system(size: 17))
     }
 }
 
-
-
-struct Settings_Previews: PreviewProvider {
+struct SettingsViewSave_Previews: PreviewProvider {
     static var previews: some View {
-        SettingsView()
+        SettingsViewSave()
     }
 }

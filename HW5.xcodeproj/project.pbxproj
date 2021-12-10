@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C21B261727637FCB00CA4BE1 /* SettingsViewSave.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21B261627637FCB00CA4BE1 /* SettingsViewSave.swift */; };
 		C26825182761B34C008E41EE /* HW5App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26825172761B34C008E41EE /* HW5App.swift */; };
 		C268251A2761B34C008E41EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26825192761B34C008E41EE /* ContentView.swift */; };
 		C268251C2761B352008E41EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C268251B2761B352008E41EE /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C21B261627637FCB00CA4BE1 /* SettingsViewSave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewSave.swift; sourceTree = "<group>"; };
 		C26825142761B34C008E41EE /* HW5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C26825172761B34C008E41EE /* HW5App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW5App.swift; sourceTree = "<group>"; };
 		C26825192761B34C008E41EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				C268252F2762BD09008E41EE /* MainViewPause.swift */,
 				C26825312762BE11008E41EE /* MainViewBreak.swift */,
 				C26825292761C741008E41EE /* SettingsView.swift */,
+				C21B261627637FCB00CA4BE1 /* SettingsViewSave.swift */,
 				C268252B2761CFD7008E41EE /* HistoryView.swift */,
 				C26825252761B4AF008E41EE /* ScreenFirst.swift */,
 				C268252D2762BC79008E41EE /* ScreenSecond.swift */,
@@ -164,6 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C21B261727637FCB00CA4BE1 /* SettingsViewSave.swift in Sources */,
 				C26825322762BE11008E41EE /* MainViewBreak.swift in Sources */,
 				C268252E2762BC79008E41EE /* ScreenSecond.swift in Sources */,
 				C26825262761B4AF008E41EE /* ScreenFirst.swift in Sources */,
