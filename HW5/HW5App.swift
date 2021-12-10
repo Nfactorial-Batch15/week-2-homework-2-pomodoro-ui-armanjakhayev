@@ -2,7 +2,7 @@
 //  HW5App.swift
 //  HW5
 //
-//  Created by Arman on 12/8/21.
+//  Created by Arman on 12/8/21 for Iphone 12 Pro Max
 //
 
 import SwiftUI

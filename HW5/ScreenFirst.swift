@@ -49,11 +49,18 @@ struct TabNav: View {
     }
 }
 
-struct Reserve: View {
-    var body: some View {
-        Text("Hello, World!")
-    }
-}
+//struct ImageUnited: View {
+//    var body: some View {
+//        ZStack{
+//            Image("house")
+//                .resizable()
+//                .frame(width: 17, height: 17)
+//            Image("heart")
+//                .resizable()
+//                .frame(width: 17, height: 17)
+//        }
+//    }
+//}
 
 
 
